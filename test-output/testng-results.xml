@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-07-14T14:11:09 IST" name="Salesforce Test Automation Test Suite" finished-at="2023-07-14T14:11:18 IST" duration-ms="8870">
+    <groups>
+    </groups>
+    <test started-at="2023-07-14T14:11:09 IST" name="Regression" finished-at="2023-07-14T14:11:18 IST" duration-ms="8870">
+      <class name="com.Saleforce.SaleforceDemo.TestCases.LoginPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.Saleforce.SaleforceDemo.TestCases.LoginPageTest@117159c0]" started-at="2023-07-14T14:11:09 IST" name="setUp" finished-at="2023-07-14T14:11:16 IST" duration-ms="7035" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validLoginTest()[pri:0, instance:com.Saleforce.SaleforceDemo.TestCases.LoginPageTest@117159c0]" started-at="2023-07-14T14:11:16 IST" name="validLoginTest" finished-at="2023-07-14T14:11:17 IST" duration-ms="812" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validLoginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.Saleforce.SaleforceDemo.TestCases.LoginPageTest@117159c0]" started-at="2023-07-14T14:11:17 IST" name="tearDown" finished-at="2023-07-14T14:11:18 IST" duration-ms="937" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.Saleforce.SaleforceDemo.TestCases.LoginPageTest -->
+    </test> <!-- Regression -->
+  </suite> <!-- Salesforce Test Automation Test Suite -->
+</testng-results>
