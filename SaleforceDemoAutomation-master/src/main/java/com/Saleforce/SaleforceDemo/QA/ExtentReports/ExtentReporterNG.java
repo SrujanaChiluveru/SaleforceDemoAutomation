@@ -1,6 +1,8 @@
 package com.Saleforce.SaleforceDemo.QA.ExtentReports;
 
 import java.io.File;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 import java.util.List;
 import java.util.Map;
 
@@ -24,9 +26,12 @@ public class ExtentReporterNG implements IReporter{
 	
 	public void generateReport(List<XmlSuite> xmlSuite, List<ISuite> suites, String outputDirectory) {
 		
-		String reportPath= outputDirectory+File.separator+"Extent.html";
+		//String reportPath= outputDirectory+File.separator+"Extent.html";
+		String timeStamp= new SimpleDateFormat("yyyy.MM.dd.HH.mm.ss").format(new Date());
+		
+		String reportPath="Test_Report"+timeStamp+".html";
 		extent= new ExtentReports();
-		extentSparkReporter= new ExtentSparkReporter(reportPath);
+		extentSparkReporter= new ExtentSparkReporter(".\\Reports\\"+reportPath);
 		extent.attachReporter(extentSparkReporter);
 		
 		for (ISuite iSuite : suites) {
