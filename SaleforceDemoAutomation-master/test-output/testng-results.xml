@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-10-03T13:34:10 IST" name="Default suite" finished-at="2023-10-03T13:34:52 IST" duration-ms="42220">
+    <groups>
+    </groups>
+    <test started-at="2023-10-03T13:34:10 IST" name="Default test" finished-at="2023-10-03T13:34:52 IST" duration-ms="42220">
+      <class name="com.Saleforce.SaleforceDemo.TestCases.LoginPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.Saleforce.SaleforceDemo.TestCases.LoginPageTest@235ecd9f]" started-at="2023-10-03T13:34:10 IST" name="setUp" finished-at="2023-10-03T13:34:21 IST" duration-ms="10945" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validLoginTest()[pri:0, instance:com.Saleforce.SaleforceDemo.TestCases.LoginPageTest@235ecd9f]" started-at="2023-10-03T13:34:21 IST" name="validLoginTest" finished-at="2023-10-03T13:34:51 IST" duration-ms="30472" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validLoginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.Saleforce.SaleforceDemo.TestCases.LoginPageTest@235ecd9f]" started-at="2023-10-03T13:34:51 IST" name="tearDown" finished-at="2023-10-03T13:34:52 IST" duration-ms="724" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.Saleforce.SaleforceDemo.TestCases.LoginPageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

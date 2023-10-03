@@ -1,0 +1,14 @@
+ Top bar: //div[@class='slds-global-header slds-grid slds-grid--align-spread']
+ //span[@role='navigation']
+ 
+ Profile Button Xpath=
+ 
+  //span[@role='navigation']//button[@class='slds-button branding-userProfile-button slds-button slds-global-actions__avatar slds-global-actions__item-action forceHeaderButton']
+  
+  
+  Profile Name link 
+  //h1[@class='profile-card-name']//a
+  
+  lightning-primitive-icon[data-data-rendering-service-uid='136']
+  
+  //button[@id='114:83;a']
